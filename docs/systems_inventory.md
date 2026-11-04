@@ -1,4 +1,4 @@
-# Bright Bean Coffee — Systems Inventory (Step 1)
+# Bright Bean Coffee — Systems Inventory 
 
 | System | What it does | Main users (roles) | 
 | ----- | ----- | ----- | 

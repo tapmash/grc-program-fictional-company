@@ -1,4 +1,5 @@
-# Bright Bean Coffee — Full Systems Inventory & Classification Matrix
+# Bright Bean Coffee 
+## Systems Inventory & Classification Matrix
 
 ### 1. Microsoft Entra ID
 * **What it does:** Central identity directory managing user accounts, authentication passwords, MFA, and SSO policies

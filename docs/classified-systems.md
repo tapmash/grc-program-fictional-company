@@ -243,4 +243,22 @@
 
 ---
 
-### 23.
+### 23. Physical Access Control & CCTV
+* **What it does:** Keycard or fob door readers, biometric scanners, and IP security cameras for building security, loading dock monitoring, and restricted site areas
+* **Main users:** Head Office Staff, Facilities Maintenance Lead, Senior Cleaner, Grounds & Security Supervisor, Logistics Drivers, Warehouse Manager
+* **System Owner:** Facilities Maintenance Lead
+* **Administrator(s):** Systems Administrator
+* **Data Held:** Biometric templates, electronic door access logs, CCTV video archives
+* **Classification:** Restricted
+* **Criticality:** Medium
+
+---
+
+### 24. Vehicle Fleet Tracking System
+* **What it does:** Telematics GPS portal for monitoring real-time locations, fuel efficiency, driver security, and delivery routes of transport vehicles
+* **Main users:** Warehouse Manager, Primary Logistics Driver, Local Fleet Drivers, Gauteng Hub Driver
+* **System Owner:** Warehouse Manager
+* **Administrator(s):** Systems Administrator
+* **Data Held:** Real-time vehicle GPS coordinates, delivery routes, driver speed telemetry
+* **Classification:** Internal
+* **Criticality:** Low

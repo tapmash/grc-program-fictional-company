@@ -3,7 +3,7 @@
 
 | System | What it does | Main users | System Owner | Administrator(s) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Microsoft Entra ID** | Central identity directory managing user accounts, authentication passwords, MFA, and SSO policies | Executive, Finance, HR, IT, Sales, Facilities Maintenance Lead, Master Roaster, Production Floor Supervisor, Packaging Line Supervisor, Warehouse Manager, Branch Managers | IT Manager | Systems Administrator, Internal IT Helpdesk, Muza IT |
+| **Microsoft Entra ID** | Central identity directory managing user accounts, authentication passwords, MFA, and SSO policies | Executive, Finance, HR, IT, Sales, Facilities Maintenance Lead, Master Roaster, Production Floor Supervisor, Packaging Line Supervisor, Warehouse Manager | IT Manager | Systems Administrator, Internal IT Helpdesk, Muza IT |
 | **Microsoft 365** | Enterprise email, team collaboration, file storage, intranet, and office productivity software | Executive, Finance, HR, IT, Sales, Facilities Maintenance Lead, Production Floor Supervisor, Warehouse Manager, Branch Managers | IT Manager | Internal IT Helpdesk, Systems Administrator, Muza IT |
 | **Windows Workstations** | Local operating system running on company laptops and desktop PCs for daily business tasks and local software access | Executive, Finance, HR, IT, Sales, Facilities Maintenance Lead, Warehouse Manager, Branch Managers | IT Manager | Internal IT Helpdesk, Systems Administrator, Muza IT |
 | **Endpoint Detection & Response** | Endpoint security agent installed on laptops and servers to detect, isolate, and respond to malware threats | All workstation and server end-users monitored by IT and MSP | IT Manager | Muza IT, Systems Administrator |

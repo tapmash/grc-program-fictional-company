@@ -6,11 +6,11 @@ This policy establishes the rules governing access to Bright Bean Coffee’s sys
 ## 2. Scope
 This policy applies to:
 
-# Who: # All Bright Bean Coffee personnel (full-time and part-time staff across all 8 branches, head office, and Midrand depot), third-party operators and managed service providers (specifically Muza IT technicians and account managers), and external contractors. Physical site visitors and delivery personnel (such as J&T logistics) carry no logical system access and are governed under physical escort rules.
+** Who: ** All Bright Bean Coffee personnel (full-time and part-time staff across all 8 branches, head office, and Midrand depot), third-party operators and managed service providers (specifically Muza IT technicians and account managers), and external contractors. Physical site visitors and delivery personnel (such as J&T logistics) carry no logical system access and are governed under physical escort rules.
 
-# What: # All 24 enterprise, cloud, database, network, and operational technology (OT) systems formally documented in # systems-inventory #, as well as all identity providers, service accounts, and data assets contained within them. Tier-based security controls (including multi-factor authentication, access review frequency, and approval workflows) strictly follow the tier assignments defined in systems-tiering.md.
+** What: ** All 24 enterprise, cloud, database, network, and operational technology (OT) systems formally documented in ** systems-inventory **, as well as all identity providers, service accounts, and data assets contained within them. Tier-based security controls (including multi-factor authentication, access review frequency, and approval workflows) strictly follow the tier assignments defined in systems-tiering.md.
 
-# Where: # All physical locations owned or operated by Bright Bean Coffee—including the Cape Town head office (including the roastery, warehouse and canteen), Midrand distribution depot, and retail store branches—as well as any location where personnel work remotely or in the field.
+** Where: ** All physical locations owned or operated by Bright Bean Coffee—including the Cape Town head office (including the roastery, warehouse and canteen), Midrand distribution depot, and retail store branches—as well as any location where personnel work remotely or in the field.
 
 ## 3. Roles and Responsibilities
 

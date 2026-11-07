@@ -1,10 +1,7 @@
 # POL-001 Access Control Policy
 
 ## 1. Purpose
-This policy establishes the rules governing access to Bright Bean Coffee’s systems, data, and physical premises.
-It protects enterprise assets against unauthorized access, creeping privilege accumulation, unrecorded approvals, and lingering access from departed staff or third-party contractors.
-Compliance with this policy supports alignment of access controls with statutory requirements under the Protection of Personal Information Act (POPIA), contractual mandates under PCI-DSS v4.0.1, 
-and technical safeguards defined in CIS Controls v8 (IG2) and NIST CSF 2.0 (PR.AA).
+This policy establishes the rules governing access to Bright Bean Coffee’s systems, data, and physical premises. It protects enterprise assets against unauthorized access, creeping privilege accumulation, unrecorded approvals, and lingering access from departed staff or third-party contractors. Compliance with this policy supports alignment of access controls with statutory requirements under the Protection of Personal Information Act (POPIA), contractual mandates under PCI-DSS v4.0.1, and technical safeguards defined in CIS Controls v8 (IG2) and NIST CSF 2.0 (PR.AA).
 
 ## 2. Scope
 This policy applies to:

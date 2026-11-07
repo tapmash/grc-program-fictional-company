@@ -1,9 +1,9 @@
 # POL-001 Access Control Policy
 
-## Section 1. Purpose
+## 1. Purpose
 This policy establishes the rules governing access to Bright Bean Coffee’s systems, data, and physical premises. It protects enterprise assets against unauthorized access, creeping privilege accumulation, unrecorded approvals, and lingering access from departed staff or third-party contractors. Compliance with this policy supports alignment of access controls with statutory requirements under the Protection of Personal Information Act (POPIA), contractual mandates under PCI-DSS v4.0.1, and technical safeguards defined in CIS Controls v8 (IG2) and NIST CSF 2.0 (PR.AA).
 
-## Section 2. Scope
+## 2. Scope
 This policy applies to:
 
 Who: All Bright Bean Coffee personnel (full-time and part-time staff across all 8 branches, head office, and Midrand depot), third-party operators and managed service providers (specifically Muza IT technicians and account managers), and external contractors. Physical site visitors and delivery personnel (such as J&T logistics) carry no logical system access and are governed under physical escort rules.
@@ -19,7 +19,7 @@ Where: All physical locations owned or operated by Bright Bean Coffee—includin
 * **IT Helpdesk (Hugo):** Logs and tracks all access control requests via Service Desk tickets, provisions standard user accounts, serves as primary role responsible for disabling accounts on exit tickets, and maintains request approval records for three years.
 * **Branch IT Technician (Keanu):** Issues and configures individual POS physical login cards and personal PINs for store staff upon receiving approved Service Desk tickets, disables a leaver’s card and PIN on the same day, and disables lost POS cards immediately upon report.
 * **E-Commerce Integration Specialist:** Removes departed personnel and contractor access from the CartSmartz Seller Portal on the same day an exit ticket is received.
-* **System Owners:** Approve user access requests for their designated systems (Tiers 1 and 2) and conduct quarterly access reviews for assigned system accounts.
+* **System Owners:** Approve user access requests for their Tier 1 and 2 systems and conduct quarterly access reviews for all their systems.
 * **Line Managers and Branch Managers:** Submit onboarding, role-change, and offboarding tickets, approve baseline team access requests, and raise a ticket for any lost key or card reported by their staff.
 * **HR:** Submits formal Service Desk exit tickets on or before an employee's last working day (or immediately upon dismissal) and co-signs the physical leaver checklist.
 * **Facilities:** Collects physical keys, fobs, and access cards on an employee's last working day, co-signs the physical leaver checklist, disables lost door cards and fobs on report, escorts and logs physical visitors and J&T logistics personnel, and conducts quarterly active card checks against the staff roster.

@@ -55,18 +55,17 @@ This policy applies to:
 * **4.3.6 Branch POS Card and PIN Deactivation:** The Branch IT Technician (Keanu) must disable and deactivate the departing individual's POS physical login card and personal PIN on the same day as their exit.
 * **4.3.7 Applicability to Contractors and Temporary Personnel:** The leaver revocation, asset return, and sign-off procedures apply equally to all full-time staff, part-time staff, temporary workers, consultants, and third-party contractor personnel ending their engagement with Bright Bean Coffee. Muza IT technician accounts follow Section 4.7.
 
- ### 4.4 Authentication (MFA and POS cards)
+### 4.4 Authentication
 
-* **4.4.1 Mandatory MFA for Tier 1 and Tier 2 Systems:** Multi-factor authentication (MFA) must be enforced and enabled for all user accounts accessing Tier 1 and Tier 2 systems. 
-* **4.4.2 Mandatory MFA for Administrative Accounts:** Multi-factor authentication (MFA) must be enforced for all administrative and privileged accounts across all tiers without exception.
-* **4.4.3 Mandatory MFA for Remote Access:** MFA must be required for all remote access, including access to cloud applications from outside Bright Bean premises.
-* **4.4.4 POS Card and PIN Authentication:** At retail point-of-sale (POS) terminals, authentication must consist of a physical card combined with a unique personal identification number (PIN), which together constitute mandatory multi-factor authentication for till access.
-* **4.4.5 POS Card Issuance and Uniqueness:** POS physical login cards and personal PINs must be issued exclusively upon receipt of an approved Service Desk ticket. Each card and PIN must be unique to an individual staff member and must never be shared, pooled, or used by another person.
-* **4.4.6 Individual Credential Accountability:** Except for service accounts governed by 4.4.7, every system account, user ID, and login credential must be assigned to a single, identifiable individual. Credential sharing, group accounts, or shared logins (including corporate banking credentials) are strictly prohibited.
-* **4.4.7 Service Account Management:** Service accounts must have a named owner and must not be used for interactive logon unless approved as an exception under Section 5.
-* **4.4.8 Default Credential Modification:** All vendor-supplied default passwords, factory-set usernames, and pre-configured administrative credentials on new systems, hardware devices, or software applications must be changed immediately upon installation and prior to going live in the production environment.
+* **4.4.1 Authentication Requirements:** Access to Bright Bean Coffee systems must be protected by authentication that is appropriate to the risk of the system and the account. The IT Manager must define, maintain and communicate the specific authentication requirements in the Access Control Standard.
+* **4.4.2 Multi-Factor Authentication:** Multi-factor authentication must be used for privileged accounts, remote access, and systems of higher risk, as specified in the Access Control Standard.
+* **4.4.3 Point-of-Sale Authentication:** Access to point-of-sale terminals must use authentication that is unique to each individual and meets the requirements of the Access Control Standard.
+* **4.4.4 Individual Accountability:** Except for service accounts governed by 4.4.7, every account and credential must be assigned to one identifiable individual and must not be shared.
+* **4.4.5 Default Credentials:** Vendor-supplied default credentials must be changed before a system or device is put into use.
+* **4.4.6 Authentication Exceptions:** Exceptions to authentication requirements must follow Section 5. Exceptions must not be granted for privileged accounts.
+* **4.4.7 Service Accounts:** Service accounts must have a named owner and must not be used for interactive logon unless approved as an exception under Section 5.
 
-  ### 4.5 Privileged Access
+ ### 4.5 Privileged Access
 
 * **4.5.1 Privileged Access Approval:** All requests for privileged or administrative access must be approved by the IT Manager (Darren). Privileged access requests for the IT Manager (Darren) must be approved by the Chief Operating Officer (COO).
 * **4.5.2 Twelve-Month Privileged Expiry and Renewal:** All privileged access grants must expire after a maximum of 12 months. Continued privileged access requires formal re-approval under 4.5.1 before the expiry date.

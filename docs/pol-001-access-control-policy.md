@@ -38,9 +38,31 @@ This policy applies to:
 * **4.1.5 Prohibition of Self-Approval:** Personnel are strictly prohibited from approving their own access requests, privilege upgrades, or policy exceptions under any circumstances. Access requests for the IT Manager (Darren) must be reviewed and approved by the Chief Operating Officer (COO). The COO also provides the System Owner sign-off where the IT Manager owns the system.
 * **4.1.6 Audit Record Retention:** The IT Helpdesk must retain complete records of all access request tickets, including authorization sign-offs, ticket timestamps, and fulfillment records, for a minimum of three (3) years.
 
-  ### 4.2 Movers (Role Changes)
+  ### 4.2 Movers 
 
 * **4.2.1 Notification and Ticket Submission:** When an employee or contractor changes job roles, transfers departments, or moves to a different branch, their new Line Manager or Branch Manager must submit a role-change access ticket via the IT Service Desk prior to or on the effective date of the change.
 * **4.2.2 Same-Day Revocation of Prior Access:** Except as permitted under 4.2.4, all system access and permissions associated strictly with the individual's former role must be revoked by IT on the effective date of the role change. Old access entitlements must not be retained "just in case" or for convenience.
 * **4.2.3 Provisioning New Role Entitlements:** Access for the new role must be provisioned strictly in accordance with the baseline defined in the role-to-access matrix and must satisfy the approval tiering requirements specified in Section 4.1.4.
 * **4.2.4 Transition Exceptions:** If temporary access to former role systems is genuinely required for handover purposes, it must be requested and documented as a formal policy exception under Section 5 (Exceptions), capped at a maximum of 14 calendar days, and approved under Section 5 with the former System Owner’s agreement.
+
+  ### 4.3 Leavers
+
+* **4.3.1 Exit Notification and Ticket Raising:** HR must submit a formal exit ticket via the IT Service Desk on or before the employee's or contractor's last working day, or immediately upon notice for a dismissal. For a dismissal, HR must alert the IT Manager or IT Helpdesk before the individual is notified, so access can be revoked at that moment.
+* **4.3.2 Same-Day Access Revocation:** All logical access across all enterprise systems, cloud platforms, and third-party portals (including the CartSmartz Seller Portal) must be revoked on the same day. For dismissals, revocation must occur immediately at the exact moment the individual is notified.
+* **4.3.3 Account Disablement Protocol:** Departing personnel and contractor accounts must be disabled on the same day under 4.3.2. Accounts must be locked and disabled rather than deleted.
+* **4.3.4 Comprehensive System Verification:** IT must compile the list of systems from the systems inventory and the individual’s directory account, not from the manager’s input alone. The IT Helpdesk and the E-Commerce Integration Specialist must verify and confirm that access has been terminated across all systems and third-party vendor platforms. The exit ticket must remain open until every system on the verified list is confirmed disabled.
+* **4.3.5 Physical Asset Return and Checklist Sign-Off:** All physical keys, door cards, fobs, and equipment must be returned by the individual on their last working day and formally signed off using the joint HR and Facilities leaver checklist.
+* **4.3.6 Branch POS Card and PIN Deactivation:** The Branch IT Technician (Keanu) must disable and deactivate the departing individual's POS physical login card and personal PIN on the same day as their exit.
+* **4.3.7 Applicability to Contractors and Temporary Personnel:** The leaver revocation, asset return, and sign-off procedures apply equally to all full-time staff, part-time staff, temporary workers, consultants, and third-party contractor personnel ending their engagement with Bright Bean Coffee. Muza IT technician accounts follow Section 4.7.
+
+ ## 4.4 Authentication (MFA and POS cards)
+
+* **4.4.1 Mandatory MFA for Tier 1 and Tier 2 Systems:** Multi-factor authentication (MFA) must be enforced and enabled for all user accounts accessing Tier 1 and Tier 2 systems. 
+* **4.4.2 Mandatory MFA for Administrative Accounts:** Multi-factor authentication (MFA) must be enforced for all administrative and privileged accounts across all tiers without exception.
+* **4.4.3 Mandatory MFA for Remote Access:** MFA must be required for all remote access, including access to cloud applications from outside Bright Bean premises.
+* **4.4.4 POS Card and PIN Authentication:** At retail point-of-sale (POS) terminals, authentication must consist of a physical card combined with a unique personal identification number (PIN), which together constitute mandatory multi-factor authentication for till access.
+* **4.4.5 POS Card Issuance and Uniqueness:** POS physical login cards and personal PINs must be issued exclusively upon receipt of an approved Service Desk ticket. Each card and PIN must be unique to an individual staff member and must never be shared, pooled, or used by another person.
+* **4.4.6 Individual Credential Accountability:** Except for service accounts governed by 4.4.7, every system account, user ID, and login credential must be assigned to a single, identifiable individual. Credential sharing, group accounts, or shared logins (including corporate banking credentials) are strictly prohibited.
+* **4.4.7 Service Account Management:** Service accounts must have a named owner and must not be used for interactive logon unless approved as an exception under Section 5.
+* **4.4.8 Default Credential Modification:** All vendor-supplied default passwords, factory-set usernames, and pre-configured administrative credentials on new systems, hardware devices, or software applications must be changed immediately upon installation and prior to going live in the production environment.
+* **4.4.9 MFA Exceptions:** Any technical or operational deviation from mandatory MFA requirements cannot be bypassed or excused for convenience; it must be formally submitted, reviewed, and approved as a policy exception under Section 5. Administrative accounts covered by 4.4.2 cannot be granted an MFA exception.

@@ -65,4 +65,23 @@ This policy applies to:
 * **4.4.6 Individual Credential Accountability:** Except for service accounts governed by 4.4.7, every system account, user ID, and login credential must be assigned to a single, identifiable individual. Credential sharing, group accounts, or shared logins (including corporate banking credentials) are strictly prohibited.
 * **4.4.7 Service Account Management:** Service accounts must have a named owner and must not be used for interactive logon unless approved as an exception under Section 5.
 * **4.4.8 Default Credential Modification:** All vendor-supplied default passwords, factory-set usernames, and pre-configured administrative credentials on new systems, hardware devices, or software applications must be changed immediately upon installation and prior to going live in the production environment.
+
+  ### 4.5 Privileged Access
+
+* **4.5.1 Privileged Access Approval:** All requests for privileged or administrative access must be approved by the IT Manager (Darren). Privileged access requests for the IT Manager (Darren) must be approved by the Chief Operating Officer (COO).
+* **4.5.2 Twelve-Month Privileged Expiry and Renewal:** All privileged access grants must expire after a maximum of 12 months. Continued privileged access requires formal re-approval under 4.5.1 before the expiry date.
+* **4.5.3 Separate Administrative Accounts:** Administrators must use dedicated, separate administrative accounts for performing privileged tasks and must not use their standard day-to-day user accounts for administrative functions.
+* **4.5.4 Separation of System Ownership and Administration:** To prevent conflict of interest and concentration of risk, the designated System Owner and the person administering the system must be distinct, separate individuals.
+* **4.5.5 Named Privileged Accounts:** Except for service accounts governed by 4.4.7, all privileged and administrative accounts—including those utilized by Muza IT technicians—must be uniquely named and assigned to an individual user. Group accounts, generic admin logins, and shared privileged credentials are strictly prohibited.
+* **4.5.6 Privileged Access Review Inclusion:** All privileged accounts and administrative entitlements must be subjected to access reviews as part of the scheduled quarterly system access reviews. Global Admin accounts are additionally reviewed monthly under 4.6.2.
+* **4.5.7 Backup Administrator Assignment:** The IT Manager must ensure each Tier 1 system has a named backup administrator, so that no system depends on a single person.
+
+### 4.6 Reviews and Inactivity
+
+* **4.6.1 Comprehensive System Access Reviews:** System Owners must conduct comprehensive access reviews for all systems on a quarterly basis, verifying that all active user entitlements remain operationally necessary for their assigned job roles.
+* **4.6.2 Monthly Global Admin and Muza Reviews:** The IT Manager (Darren) must conduct a monthly review of all Global Admin accounts and Muza IT administrative activity logs to detect anomalous or unauthorized privilege utilization.
+* **4.6.3 Inactivity Disabling:** User accounts that remain inactive for a consecutive period of 45 days must be disabled by the Systems Administrator, not deleted. Accounts of staff on approved long leave may be retained under an exception in Section 5.
+* **4.6.4 Inactivity Re-activation Protocol:** Re-activation of an account disabled due to 45-day inactivity must not occur automatically; it requires a formal Service Desk ticket submitted by the Line Manager and re-approved in accordance with Section 4.1.4.
+* **4.6.5 Review Independence and Self-Review Prohibition:** A reviewer must not review their own access. The COO reviews the IT Manager’s access.
+* **4.6.6 Review Remediation and Record Retention:** Any access found to be unnecessary during a review must be removed within 5 working days, and all review records must be retained for 3 years.
 * **4.4.9 MFA Exceptions:** Any technical or operational deviation from mandatory MFA requirements cannot be bypassed or excused for convenience; it must be formally submitted, reviewed, and approved as a policy exception under Section 5. Administrative accounts covered by 4.4.2 cannot be granted an MFA exception.

@@ -55,7 +55,7 @@ This policy applies to:
 * **4.3.6 Branch POS Card and PIN Deactivation:** The Branch IT Technician (Keanu) must disable and deactivate the departing individual's POS physical login card and personal PIN on the same day as their exit.
 * **4.3.7 Applicability to Contractors and Temporary Personnel:** The leaver revocation, asset return, and sign-off procedures apply equally to all full-time staff, part-time staff, temporary workers, consultants, and third-party contractor personnel ending their engagement with Bright Bean Coffee. Muza IT technician accounts follow Section 4.7.
 
- ## 4.4 Authentication (MFA and POS cards)
+ ### 4.4 Authentication (MFA and POS cards)
 
 * **4.4.1 Mandatory MFA for Tier 1 and Tier 2 Systems:** Multi-factor authentication (MFA) must be enforced and enabled for all user accounts accessing Tier 1 and Tier 2 systems. 
 * **4.4.2 Mandatory MFA for Administrative Accounts:** Multi-factor authentication (MFA) must be enforced for all administrative and privileged accounts across all tiers without exception.

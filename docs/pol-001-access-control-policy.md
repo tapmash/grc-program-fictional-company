@@ -4,13 +4,8 @@
 This policy establishes the rules governing access to Bright Bean Coffee’s systems, data, and physical premises. It protects enterprise assets against unauthorized access, creeping privilege accumulation, unrecorded approvals, and lingering access from departed staff or third-party contractors. Compliance with this policy supports alignment of access controls with statutory requirements under the Protection of Personal Information Act (POPIA), contractual mandates under PCI-DSS v4.0.1, and technical safeguards defined in CIS Controls v8 (IG2) and NIST CSF 2.0 (PR.AA).
 
 ## 2. Scope
-This policy applies to:
 
-**Who:** All Bright Bean Coffee personnel (full-time and part-time staff across all 8 branches, head office, and Midrand depot), third-party operators and managed service providers (specifically Muza IT technicians and account managers), and external contractors. Physical site visitors and delivery personnel (such as J&T logistics) carry no logical system access and are governed under physical escort rules.
-
-**What:** All 24 enterprise, cloud, database, network, and operational technology (OT) systems formally documented in **systems-inventory.md**, as well as all identity providers, service accounts, and data assets contained within them. Tier-based security controls (including multi-factor authentication, access review frequency, and approval workflows) strictly follow the tier assignments defined in **systems-tiering.md.**
-
-**Where:** All physical locations owned or operated by Bright Bean Coffee—including the Cape Town head office (including the roastery, warehouse and canteen), Midrand distribution depot, and retail store branches—as well as any location where personnel work remotely or in the field.
+This policy applies to all Bright Bean Coffee personnel, including full-time and part-time staff across the head office, branches, and distribution depot, as well as third-party operators, managed service providers, and external contractors who have access to Bright Bean systems, data, or premises. It applies to all enterprise, cloud, database, network, and operational technology systems documented in the systems inventory, and to all identity providers, service accounts, and data assets within them, with tier-based requirements following the tier assignments in the systems tiering standard. It applies at all physical locations owned or operated by Bright Bean Coffee and at any location where personnel work remotely or in the field. Visitors and delivery personnel have no logical system access and are governed by the physical escort rules in Section 4.8. Where a requirement of this policy is not technically supported by a system, the system must use the strongest available control, and the deviation must be documented and approved as an exception under Section 5.
 
 ## 3. Roles and Responsibilities
 
